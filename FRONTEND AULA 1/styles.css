@@ -1,0 +1,26 @@
+p{
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+}
+
+html {
+    font-size: size 20px;
+    font-family:Roboto, sans-serif;
+
+}
+
+p, l1 {
+    color: blue;
+    width: 500px;
+    border: 1px solid black;
+    font-size: 16pix;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+
