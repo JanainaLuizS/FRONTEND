@@ -1,0 +1,130 @@
+/* Fundo geral da página (cinza claro) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* O cartão branco principal que centraliza tudo */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    width: 650px;
+    max-width: 90%;
+    text-align: center;
+}
+
+/* Cabeçalho azul escuro */
+.cabecalho {
+    background-color: #1a365d;
+    color: #ffffff;
+    padding: 25px 20px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+.cabecalho h1 {
+    margin: 0 0 8px 0;
+    font-size: 24px;
+}
+
+.cabecalho p {
+    margin: 0;
+    font-size: 14px;
+    color: #e2e8f0;
+}
+
+/* Caixa "Inscrições abertas" */
+.inscricao {
+    background-color: #bee3f8;
+    color: #2b6cb0;
+    display: inline-block;
+    padding: 6px 18px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.inscricao h2 {
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Área dos Cursos (coloca os dois cartões lado a lado) */
+.cursos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+/* Cada cartão individual de curso */
+.card-curso {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 25px 20px;
+    flex: 1;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.card-curso h2 {
+    font-size: 16px;
+    color: #2d3748;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.card-curso p {
+    font-size: 13px;
+    color: #718096;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+/* Etiqueta verde (Tecnologia / Infraestrutura) */
+.tag.verde {
+    background-color: #c6f6d5;
+    color: #22543d;
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Rodapé e Botão Amarelo */
+.informacao {
+    border-top: 1px solid #edf2f7;
+    padding-top: 25px;
+}
+
+.btn-saiba-mais {
+    background-color: #ecc94b;
+    color: #1a202c;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 15px;
+    transition: background 0.2s;
+}
+
+.btn-saiba-mais:hover {
+    background-color: #d69e2e;
+}
+
+.informacao p {
+    margin: 0;
+    font-size: 11px;
+    color: #a0aec0;
+}
