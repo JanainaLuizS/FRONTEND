@@ -1,11 +1,12 @@
 import { useState } from 'react'
-
+import CadastroLivros from "./components/CadastroLivros";
 
 function App() {
-  
-
-  return (
-  )
+    return (
+        <main>
+            <CadastroLivros />
+        </main>
+    );
 }
 
-export default App
+export default App;
